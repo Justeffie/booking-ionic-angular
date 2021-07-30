@@ -1,0 +1,8 @@
+{
+  "appId": "ionic.booking",
+  "appName": "booking-project",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {}
+}

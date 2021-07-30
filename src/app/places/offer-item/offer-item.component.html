@@ -1,0 +1,21 @@
+<ion-grid>
+  <ion-row class="ion-justify-content-center">
+    <ion-col size-md="7" size-sm="12">
+      <ion-item detail >
+        <ion-thumbnail slot="start">
+          <ion-img [src]="place.image"></ion-img>
+        </ion-thumbnail>
+        <ion-label>
+          <h2>{{ place.title }}</h2>
+          <div class="offer-details">
+            <ion-icon name="calendar" color="tertiary"></ion-icon>
+            <ion-text color="primary" class="space-left">{{ place.availableFrom | date }} </ion-text>
+          <span class="space-left">to</span>
+          <ion-icon name="calendar" class="space-left" color="tertiary"></ion-icon>
+          <ion-text color="primary" class="space-left">{{ place.availableTo | date }} </ion-text>
+          </div>
+        </ion-label>
+      </ion-item>
+    </ion-col>
+  </ion-row>
+</ion-grid>
